@@ -27,5 +27,4 @@ for currency in data:
         data[currency]['quotes']['USD']['percent_change_24h']
         ])
 
-
 file.save('CurrencyAnalysis.xlsx')

@@ -1,8 +1,11 @@
 import requests
 from prettytable import PrettyTable
 
+from keys import KEY
+
+
 #region
-key = 'ca469772-cf03-4fbf-a5b3-41f099088540'
+key = KEY
 #endregion
 
 api = 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest?CMC_PRO_API_KEY='
